@@ -13,7 +13,7 @@ import {
   faGitAlt,
   faBootstrap,
 } from "@fortawesome/free-brands-svg-icons";
-import {resume} from "../assets/index"
+import { resume } from "../assets/index";
 const Feedbacks = () => {
   return (
     <div className={`mt-12 bg-black-100 rounded-[20px]`}>
@@ -35,11 +35,11 @@ const Feedbacks = () => {
               forward to the opportunity to discuss how my skills can contribute
               to your organization's success.
             </p>
-            <button class="bg-purple-500 hover:bg-purple-400 text-white font-bold py-2 px-4 border-b-4 border-purple-700 hover:border-purple-500 rounded mt-6">
-              <a href={resume} target = "_blank" download>
+            <a href={resume} target="_blank" download>
+              <button class="bg-purple-500 hover:bg-purple-400 text-white font-bold py-2 px-4 border-b-4 border-purple-700 hover:border-purple-500 rounded mt-6">
                 Download Resume
-              </a>
-            </button>
+              </button>
+            </a>
           </motion.div>
           <motion.div
             variants={textVariant()}
