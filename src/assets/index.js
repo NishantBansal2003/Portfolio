@@ -19,7 +19,7 @@ import reactjs from "./tech/reactjs.png";
 import cpp from "./tech/cpp.png";
 import tailwind from "./tech/tailwind.png";
 import python from "./tech/python.png";
-import threejs from "./tech/threejs.svg";
+import threejs from "./tech/threejs.png";
 
 import codeforces from "./company/codeforces.png";
 
@@ -31,8 +31,11 @@ import brokerax from "./company/brokerax.png";
 import broker from "./broker.png";
 import amaze from "./amaze.png";
 import flipkart from "./flipkart.png";
-
+import nexttalk from "./NextTalkLogo.png"
+import resume from "./Resume_Nishant.pdf"
 export {
+  resume,
+  nexttalk,
   broker,
   amaze,
   flipkart,

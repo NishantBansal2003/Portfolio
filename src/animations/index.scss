@@ -4,38 +4,38 @@
   animation-iteration-count: infinite;
   animation-duration: 12s;
   transform-style: preserve-3d;
-  transform-origin: 150px 150px 0;
-  margin-left: calc(50% - 150px);
+  transform-origin: 9vw 9vw 0;
+  margin-left: calc(50% - 9vw);
   div {
     position: absolute;
-    width: 300px;
-    height: 300px;
+    width: 18vw;
+    height: 18vw;
     border: 1px solid #ccc;
     background: rgba(255, 255, 255, 0.4);
-    font-size: 150px;
+    font-size: 9vw;
     display: flex;
     justify-content: center;
     align-items: center;
     box-shadow: 0 0 20px 0 lightyellow;
   }
   .face1 {
-    transform: translateZ(150px);
+    transform: translateZ(9vw);
   }
   .face2 {
-    transform: rotateY(90deg) translateZ(150px);
+    transform: rotateY(90deg) translateZ(9vw);
   }
   .face3 {
-    transform: rotateY(90deg) rotateX(90deg) translateZ(150px);
+    transform: rotateY(90deg) rotateX(90deg) translateZ(9vw);
   }
   .face4 {
-    transform: rotateY(180deg) rotateZ(90deg) translateZ(150px);
+    transform: rotateY(180deg) rotateZ(90deg) translateZ(9vw);
   }
   .face5 {
-    transform: rotateY(-90deg) rotateZ(90deg) translateZ(150px);
+    transform: rotateY(-90deg) rotateZ(90deg) translateZ(9vw);
   }
 
   .face6 {
-    transform: rotateX(-90deg) translateZ(150px);
+    transform: rotateX(-90deg) translateZ(9vw);
   }
 }
 @keyframes spincube {
@@ -57,5 +57,11 @@
   }
   83% {
     transform: rotateX(90deg);
+  }
+}
+@media screen and (max-width: 950px) {
+  .nonesm {
+    width: 0;
+    display: none;
   }
 }

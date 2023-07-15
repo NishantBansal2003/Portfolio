@@ -13,6 +13,7 @@ import {
   faGitAlt,
   faBootstrap,
 } from "@fortawesome/free-brands-svg-icons";
+import {resume} from "../assets/index"
 const Feedbacks = () => {
   return (
     <div className={`mt-12 bg-black-100 rounded-[20px]`}>
@@ -22,7 +23,7 @@ const Feedbacks = () => {
         <motion.div variants={textVariant()} className={`flex `}>
           <motion.div
             variants={textVariant()}
-            className={`flex flex-col items-center justify-center w-2/4`}
+            className={`flex flex-col items-center justify-center w-full`}
           >
             <h2 className={styles.sectionHeadText}>Want to know more . . .</h2>
             <p className={styles.sectionSubText2}>
@@ -35,10 +36,15 @@ const Feedbacks = () => {
               to your organization's success.
             </p>
             <button class="bg-purple-500 hover:bg-purple-400 text-white font-bold py-2 px-4 border-b-4 border-purple-700 hover:border-purple-500 rounded mt-6">
-              Download Resume
+              <a href={resume} target = "_blank" download>
+                Download Resume
+              </a>
             </button>
           </motion.div>
-          <motion.div variants={textVariant()} className={` mt-40  ml-8 w-2/4`}>
+          <motion.div
+            variants={textVariant()}
+            className={` mt-40  ml-8 w-2/4 nonesm`}
+          >
             <div className="cubespinner">
               <div className="face1">
                 <FontAwesomeIcon icon={faBootstrap} color="#8000ff" />
