@@ -103,10 +103,10 @@ const technologies = [
     name: "MongoDB",
     icon: mongodb,
   },
-  {
-    name: "Angular",
-    icon: angular,
-  },
+  // {
+  //   name: "Angular",
+  //   icon: angular,
+  // },
   {
     name: "Express",
     icon: express,
@@ -115,22 +115,22 @@ const technologies = [
     name: "TypeScript",
     icon: typescript,
   },
-  {
-    name: "Java",
-    icon: Java,
-  },
+  // {
+  //   name: "Java",
+  //   icon: Java,
+  // },
   {
     name: "Docker",
     icon: docker,
   },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "C",
-    icon: cLanguage,
-  },
+  // {
+  //   name: "git",
+  //   icon: git,
+  // },
+  // {
+  //   name: "C",
+  //   icon: cLanguage,
+  // },
   {
     name: "Bootstrap",
     icon: bootstrap,
