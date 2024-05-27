@@ -23,8 +23,13 @@ import {
   cLanguage,
   bootstrap,
   codeforces,
-  threejs,
   nexttalk,
+  cisco,
+  angular,
+  express,
+  typescript,
+  Java,
+  docker,
 } from "../assets";
 
 export const navLinks = [
@@ -99,8 +104,24 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "Angular",
+    icon: angular,
+  },
+  {
+    name: "Express",
+    icon: express,
+  },
+  {
+    name: "TypeScript",
+    icon: typescript,
+  },
+  {
+    name: "Java",
+    icon: Java,
+  },
+  {
+    name: "Docker",
+    icon: docker,
   },
   {
     name: "git",
@@ -118,10 +139,22 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Cisco SWE Intern",
+    company_name: "Cisco Systems Pvt. Ltd.",
+    icon: cisco,
+    iconBg: "white",
+    date: "May 2024 - present",
+    points: [
+      "Software Engineering Intern at Cisco, Distributed Systems Department.",
+      "Working on SONiC(Software for open networking in Cloud), a network operating system, to make network switches vendor-independent",
+      "Implementing SONiC on the NCS 1K platform",
+    ],
+  },
+  {
     title: "NextTalk",
     company_name: "Real Time Chat Application",
     icon: nexttalk,
-    iconBg: "black",
+    iconBg: "white",
     date: "May 2023 - July 2023",
     points: [
       "Implemented secure login/signup with password encryption for data privacy, leveraging WebSockets, Node.js, Express.js, and MongoDB.",
@@ -148,9 +181,9 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Oct 2022 - present",
     points: [
-      "Highest rating - 1426(Specialist)",
-      "Problem solving achievements - Solved 400+ Problems on this platform",
-      "Personal Best Rank - Achieved global rank of 1533 in Educational Codeforces Round 151",
+      "Highest rating - 1688(Expert)",
+      "Problem solving achievements - Solved many Problems on this platform",
+      "Personal Best Rank - Achieved global rank of 331 in Codeforces Round 918 (Div. 4)",
     ],
   },
   {
@@ -160,10 +193,10 @@ const experiences = [
     iconBg: "#ffffff",
     date: "Aug 2022 - present",
     points: [
-      "Highest rating - 1763(3 star)",
-      "Problem solving achievements - Solved 150+ Problems on this platform",
-      "Achieved global rank of 58 in Starters 61 Division 3",
-      "Achieved global rank of 278 in  Starters 80 Division 2",
+      "Highest rating - 2009(5 star)",
+      "Problem solving achievements - Solved 200+ Problems on this platform",
+      "Achieved global rank of 47 in Starters 126 Division 2",
+      "Achieved global rank of 71 in Starters 123 Division 2 ",
     ],
   },
   {
@@ -173,10 +206,10 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Dec 2022 - present",
     points: [
-      "Problem solving achievements - Solved 350+ Problems on this platform",
-      "Max POTD streak achieved is 68 days",
+      "Contest Rating - 1993(Knight)",
+      "Problem solving achievements - Solved 450+ Problems on this platform",
       "Highlights - Consistently solving POTD for over last 7 months",
-      "Badge - April and June Leetcoding challenge for consistently solving questions everyday in the month of April and June ",
+      "Badge - April, June, July, August, 50 Days and 100 Days Leetcoding challenge for consistently solving questions everyday in the month of April, June, July, August ",
     ],
   },
 
@@ -223,7 +256,7 @@ const projects = [
       },
     ],
     image: broker,
-    source_code_link: "https://github.com/NishantBansal2003/Brokerax",
+    source_code_link: "https://github.com/NishantBansal2003/BROKERAX-completed",
   },
   {
     name: "Amazon",

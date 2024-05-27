@@ -51,9 +51,9 @@ const About = () => {
         Welcome to my portfolio website! I am a passionate learner with a Good
         knowledge of HTML, CSS, JavaScript, React JS, Bootstrap, and Tailwind
         CSS. In addition to my front-end development skills, I am also
-        proficient in backend web development using Node.js and MongoDB. I also
-        have a strong background in competitive programming using C++. I am also
-        proficient in C, Python, NumPy, Matplotlib, and Panda. I enjoy
+        proficient in backend web development using Node.js, Express and MongoDB. I also
+        have a strong background in competitive programming using C++. I also have good understanding
+        of C, Python, Java, TypeScript, Angular and docker. I enjoy
         problem-solving and taking on new challenges, and I am always looking to
         expand my knowledge and skills. Whether you are looking for a developer
         for your next project or simply browsing my portfolio, I invite you to

@@ -30,7 +30,6 @@ const App = () => {
           <StarsCanvas />
           <Footer />
         </div>
-       
       </div>
     </BrowserRouter>
   );

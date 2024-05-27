@@ -21,18 +21,25 @@ import tailwind from "./tech/tailwind.png";
 import python from "./tech/python.png";
 import threejs from "./tech/threejs.png";
 
+import angular from "./tech/Angular.png";
+import express from "./tech/express.png";
+import typescript from "./tech/typescript.png";
+import Java from "./tech/java.png";
+import docker from "./tech/docker.png";
+
 import codeforces from "./company/codeforces.png";
 
 import codechef from "./company/codechef.png";
 import leetcode from "./company/leetcode.png";
 import GeeksforGeeks from "./company/GeeksforGeeks.png";
 import brokerax from "./company/brokerax.png";
+import cisco from "./company/cisco.png";
 
 import broker from "./broker.png";
 import amaze from "./amaze.png";
 import flipkart from "./flipkart.png";
-import nexttalk from "./NextTalkLogo.png"
-import resume from "./Resume_Nishant.pdf"
+import nexttalk from "./NextTalkLogo.png";
+import resume from "./Resume_Nishant.pdf";
 export {
   resume,
   nexttalk,
@@ -65,4 +72,10 @@ export {
   python,
   threejs,
   codeforces,
+  cisco,
+  angular,
+  express,
+  typescript,
+  Java,
+  docker,
 };
