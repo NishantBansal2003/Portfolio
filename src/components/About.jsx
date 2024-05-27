@@ -51,14 +51,15 @@ const About = () => {
         Welcome to my portfolio website! I am a passionate learner with a Good
         knowledge of HTML, CSS, JavaScript, React JS, Bootstrap, and Tailwind
         CSS. In addition to my front-end development skills, I am also
-        proficient in backend web development using Node.js, Express and MongoDB. I also
-        have a strong background in competitive programming using C++. I also have good understanding
-        of C, Python, Java, TypeScript, Angular and docker. I enjoy
-        problem-solving and taking on new challenges, and I am always looking to
-        expand my knowledge and skills. Whether you are looking for a developer
-        for your next project or simply browsing my portfolio, I invite you to
-        explore my work and get to know me better. Thank you for visiting my
-        website, and I look forward to hearing from you!
+        proficient in backend web development using Node.js, Express and
+        MongoDB. I have good understanding of C, Python, Java, TypeScript,
+        Angular and docker. I also have a strong background in competitive
+        programming using C++. I enjoy problem-solving and taking on new
+        challenges, and I am always looking to expand my knowledge and skills.
+        Whether you are looking for a developer for your next project or simply
+        browsing my portfolio, I invite you to explore my work and get to know
+        me better. Thank you for visiting my website, and I look forward to
+        hearing from you!
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
